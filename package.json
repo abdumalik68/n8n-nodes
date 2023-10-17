@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-boomerangme",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "description": "",
   "keywords": [
     "n8n-community-node-package"
@@ -30,7 +30,7 @@
   "n8n": {
     "n8nNodesApiVersion": 1,
     "credentials": [
-      "dist/credentials/BoomerangmeApi.credentials"
+      "dist/credentials/BoomerangmeApi.credentials.js"
     ],
     "nodes": [
       "dist/nodes/Boomerangme/Boomerangme.node.js"

@@ -1,5 +1,6 @@
 import { INodeType, INodeTypeDescription } from 'n8n-workflow';
-import { httpVerbFields, httpVerbOperations } from './HttpVerbDescription';
+// import { httpVerbFields, httpVerbOperations } from './HttpVerbDescription';
+import { customerFields, customerOperations } from './CustomerDescription';
 
 export class Boomerangme implements INodeType {
 	description: INodeTypeDescription = {
@@ -8,7 +9,7 @@ export class Boomerangme implements INodeType {
 		icon: 'file:logo.svg',
 		group: ['transform'],
 		version: 1,
-		subtitle: '={{$parameter["operation"] + ": " + $parameter["resource"]}}',
+		subtitle: '={{ $parameter["resource"] + ": " + $parameter["operation"] }}',
 		description: 'Interact with Boomerangme API',
 		defaults: {
 			name: 'Boomerangme',
@@ -38,15 +39,15 @@ export class Boomerangme implements INodeType {
 				noDataExpression: true,
 				options: [
 					{
-						name: 'HTTP Verb',
-						value: 'httpVerb',
+						name: 'Customer',
+						value: 'customer',
 					},
 				],
-				default: 'httpVerb',
+				default: 'customer',
 			},
 
-			...httpVerbOperations,
-			...httpVerbFields,
+			...customerOperations,
+			...customerFields,
 		],
 	};
 }

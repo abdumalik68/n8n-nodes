@@ -5,7 +5,7 @@ import {
 	INodeProperties,
 } from 'n8n-workflow';
 
-export class BoomerangmeApiCredentials implements ICredentialType {
+export class BoomerangmeApi implements ICredentialType {
 	name = 'boomerangmeApi';
 	displayName = 'Boomerangme API';
 	documentationUrl = 'https://docs.digitalwallet.cards/';
