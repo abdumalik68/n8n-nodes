@@ -97,7 +97,7 @@ const listOperation: INodeProperties[] = [
 
 const getOperation: INodeProperties[] = [
 	{
-		displayName: 'Customer Id',
+		displayName: 'Customer ID',
 		name: 'customerId',
 		default: '',
 		displayOptions: {
@@ -202,7 +202,7 @@ const createOperation: INodeProperties[] = [
 		type: 'dateTime',
 	},
 	{
-		displayName: 'External User Id',
+		displayName: 'External User ID',
 		name: 'externalUserId',
 		default: '',
 		displayOptions: {

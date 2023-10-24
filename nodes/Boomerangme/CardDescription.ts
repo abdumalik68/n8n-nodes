@@ -64,7 +64,7 @@ export const cardOperations: INodeProperties[] = [
 
 const listOperation: INodeProperties[] = [
 	{
-		displayName: 'Template Id',
+		displayName: 'Template ID',
 		name: 'templateId',
 		default: '',
 		description: 'Filter by templateId',
@@ -77,7 +77,7 @@ const listOperation: INodeProperties[] = [
 		type: 'string',
 	},
 	{
-		displayName: 'Customer Id',
+		displayName: 'Customer ID',
 		name: 'customerId',
 		default: '',
 		description: 'Filter by customerId',
@@ -119,7 +119,7 @@ const listOperation: INodeProperties[] = [
 
 const getOperation: INodeProperties[] = [
 	{
-		displayName: 'Card Id',
+		displayName: 'Card ID',
 		name: 'cardId',
 		default: '',
 		displayOptions: {
@@ -135,7 +135,7 @@ const getOperation: INodeProperties[] = [
 
 const createOperation: INodeProperties[] = [
 	{
-		displayName: 'Template Id',
+		displayName: 'Template ID',
 		name: 'templateId',
 		default: '',
 		displayOptions: {
@@ -148,7 +148,7 @@ const createOperation: INodeProperties[] = [
 		required: true,
 	},
 	{
-		displayName: 'Customer Id',
+		displayName: 'Customer ID',
 		name: 'customerId',
 		default: '',
 		displayOptions: {
