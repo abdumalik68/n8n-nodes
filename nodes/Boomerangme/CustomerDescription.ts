@@ -193,13 +193,14 @@ const createOperation: INodeProperties[] = [
 		displayName: 'Date of Birth',
 		name: 'dateOfBirth',
 		default: '',
+		placeholder: '1999-10-10',
 		displayOptions: {
 			show: {
 				resource: ['customer'],
 				operation: ['create'],
 			},
 		},
-		type: 'dateTime',
+		type: 'string',
 	},
 	{
 		displayName: 'External User ID',

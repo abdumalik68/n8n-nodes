@@ -20,15 +20,39 @@ Follow the [installation guide](https://docs.n8n.io/integrations/community-nodes
 
 ## Operations
 
-_List the operations supported by your node._
+- Create Customer
+- Get Customer
+- List of Customers
+
+
+- Add Amount to Card
+- Add Point to Card
+- Add Reward to Card
+- Add Scores to Card
+- Add Stamp to Card
+- Add Visit to Card
+- Create Card
+- Delete Card
+- Get Card
+- List of Cards
+- Receive Reward
+- Redeem Coupon
+- Subtract Amount From Card
+- Subtract Point From Card
+- Subtract Reward From Card
+- Subtract Scores From Card
+- Subtract Stamp From Card
+- Subtract Visit From Card
 
 ## Credentials
 
-_If users need to authenticate with the app/service, provide details here. You should include prerequisites (such as signing up with the service), available authentication methods, and how to set them up._
+Add credentials `Boomerangme API`
+
+Get API key from page: https://app.boomerangme.cards/settings/integrations
 
 ## Compatibility
 
-_State the minimum n8n version, as well as which versions you test against. You can also include any known version incompatibility issues._
+No info
 
 ## Usage
 
@@ -39,7 +63,6 @@ _By the time users are looking for community nodes, they probably already know n
 ## Resources
 
 * [n8n community nodes documentation](https://docs.n8n.io/integrations/community-nodes/)
-* _Link to app/service documentation._
 
 ## Version history
 
