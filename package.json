@@ -1,15 +1,15 @@
 {
   "name": "n8n-nodes-boomerangme",
   "version": "0.1.4",
-  "description": "",
+  "description": "Boomerangme node for N8N",
   "keywords": [
     "n8n-community-node-package"
   ],
   "license": "MIT",
   "homepage": "",
   "author": {
-    "name": "",
-    "email": ""
+    "name": "Mike Nosov",
+    "email": "mike@boomerangme.cards"
   },
   "repository": {
     "type": "git",

@@ -14,7 +14,7 @@ export const cardOperations: INodeProperties[] = [
 		},
 		options: [
 			{
-				name: 'List of cards',
+				name: 'List of Cards',
 				value: 'list',
 				action: 'List of cards',
 				routing: {
@@ -31,7 +31,7 @@ export const cardOperations: INodeProperties[] = [
 				},
 			},
 			{
-				name: 'Get card',
+				name: 'Get Card',
 				value: 'get',
 				action: 'Get card',
 				routing: {
@@ -42,7 +42,7 @@ export const cardOperations: INodeProperties[] = [
 				},
 			},
 			{
-				name: 'Create card',
+				name: 'Create Card',
 				value: 'create',
 				action: 'Create card',
 				routing: {
@@ -75,7 +75,6 @@ const listOperation: INodeProperties[] = [
 			},
 		},
 		type: 'string',
-		required: false,
 	},
 	{
 		displayName: 'Customer Id',
@@ -89,7 +88,6 @@ const listOperation: INodeProperties[] = [
 			},
 		},
 		type: 'string',
-		required: false,
 	},
 	{
 		displayName: 'Customer Phone',
@@ -103,7 +101,6 @@ const listOperation: INodeProperties[] = [
 			},
 		},
 		type: 'string',
-		required: false,
 	},
 	{
 		displayName: 'Customer Email',
@@ -117,7 +114,6 @@ const listOperation: INodeProperties[] = [
 			},
 		},
 		type: 'string',
-		required: false,
 	},
 ];
 
@@ -142,7 +138,6 @@ const createOperation: INodeProperties[] = [
 		displayName: 'Template Id',
 		name: 'templateId',
 		default: '',
-		description: 'Template Id',
 		displayOptions: {
 			show: {
 				resource: ['card'],
@@ -156,7 +151,6 @@ const createOperation: INodeProperties[] = [
 		displayName: 'Customer Id',
 		name: 'customerId',
 		default: '',
-		description: 'Customer Id',
 		displayOptions: {
 			show: {
 				resource: ['card'],

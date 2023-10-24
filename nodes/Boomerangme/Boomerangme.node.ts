@@ -13,7 +13,6 @@ export class Boomerangme implements INodeType {
 		description: 'Interact with Boomerangme API',
 		defaults: {
 			name: 'Boomerangme',
-			color: 'F5F900',
 		},
 		inputs: ['main'],
 		outputs: ['main'],

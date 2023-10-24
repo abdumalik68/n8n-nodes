@@ -14,7 +14,7 @@ export const customerOperations: INodeProperties[] = [
 		},
 		options: [
 			{
-				name: 'List of customers',
+				name: 'List of Customers',
 				value: 'list',
 				action: 'List of customers',
 				routing: {
@@ -29,7 +29,7 @@ export const customerOperations: INodeProperties[] = [
 				},
 			},
 			{
-				name: 'Get customer',
+				name: 'Get Customer',
 				value: 'get',
 				action: 'Get customer',
 				routing: {
@@ -40,7 +40,7 @@ export const customerOperations: INodeProperties[] = [
 				},
 			},
 			{
-				name: 'Create customer',
+				name: 'Create Customer',
 				value: 'create',
 				action: 'Create customer',
 				routing: {
@@ -78,12 +78,12 @@ const listOperation: INodeProperties[] = [
 			},
 		},
 		type: 'string',
-		required: false,
 	},
 	{
 		displayName: 'Email',
 		name: 'email',
 		default: '',
+		placeholder: 'name@email.com',
 		description: 'Filter by email',
 		displayOptions: {
 			show: {
@@ -92,7 +92,6 @@ const listOperation: INodeProperties[] = [
 			},
 		},
 		type: 'string',
-		required: false,
 	},
 ];
 
@@ -117,7 +116,6 @@ const createOperation: INodeProperties[] = [
 		displayName: 'First Name',
 		name: 'firstName',
 		default: '',
-		description: 'First Name',
 		displayOptions: {
 			show: {
 				resource: ['customer'],
@@ -131,7 +129,6 @@ const createOperation: INodeProperties[] = [
 		displayName: 'Surname',
 		name: 'surname',
 		default: '',
-		description: 'Surname',
 		displayOptions: {
 			show: {
 				resource: ['customer'],
@@ -139,13 +136,11 @@ const createOperation: INodeProperties[] = [
 			},
 		},
 		type: 'string',
-		required: false,
 	},
 	{
 		displayName: 'Phone',
 		name: 'phone',
 		default: '',
-		description: 'Phone',
 		displayOptions: {
 			show: {
 				resource: ['customer'],
@@ -159,7 +154,7 @@ const createOperation: INodeProperties[] = [
 		displayName: 'Email',
 		name: 'email',
 		default: '',
-		description: 'Email',
+		placeholder: 'name@email.com',
 		displayOptions: {
 			show: {
 				resource: ['customer'],
@@ -167,13 +162,11 @@ const createOperation: INodeProperties[] = [
 			},
 		},
 		type: 'string',
-		required: false,
 	},
 	{
 		displayName: 'Gender',
 		name: 'gender',
 		default: '0',
-		description: 'Gender',
 		options: [
 			{
 				name: 'Unknown',
@@ -195,13 +188,11 @@ const createOperation: INodeProperties[] = [
 			},
 		},
 		type: 'options',
-		required: false,
 	},
 	{
 		displayName: 'Date of Birth',
 		name: 'dateOfBirth',
 		default: '',
-		description: 'Date of Birth',
 		displayOptions: {
 			show: {
 				resource: ['customer'],
@@ -209,13 +200,11 @@ const createOperation: INodeProperties[] = [
 			},
 		},
 		type: 'dateTime',
-		required: false,
 	},
 	{
 		displayName: 'External User Id',
 		name: 'externalUserId',
 		default: '',
-		description: 'External User Id',
 		displayOptions: {
 			show: {
 				resource: ['customer'],
@@ -223,7 +212,6 @@ const createOperation: INodeProperties[] = [
 			},
 		},
 		type: 'string',
-		required: false,
 	},
 ];
 
