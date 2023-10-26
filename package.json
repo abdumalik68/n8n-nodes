@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-boomerangme",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Boomerangme node for N8N",
   "keywords": [
     "n8n-community-node-package"
@@ -33,7 +33,8 @@
       "dist/credentials/BoomerangmeApi.credentials.js"
     ],
     "nodes": [
-      "dist/nodes/Boomerangme/Boomerangme.node.js"
+      "dist/nodes/Boomerangme/Boomerangme.node.js",
+      "dist/nodes/Boomerangme/BoomerangmeTrigger.node.js"
     ]
   },
   "devDependencies": {
