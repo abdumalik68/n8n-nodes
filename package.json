@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-boomerangme",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Boomerangme node for N8N",
   "keywords": [
     "n8n-community-node-package"
