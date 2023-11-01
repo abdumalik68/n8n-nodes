@@ -20,6 +20,10 @@ Follow the [installation guide](https://docs.n8n.io/integrations/community-nodes
 
 ## Operations
 
+- Get Company
+- List of Companies
+
+
 - Create Customer
 - Get Customer
 - List of Customers
