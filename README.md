@@ -48,6 +48,9 @@ Follow the [installation guide](https://docs.n8n.io/integrations/community-nodes
 - Subtract Stamp From Card
 - Subtract Visit From Card
 
+
+- SMS Send to Customer
+
 ## Credentials
 
 Add credentials `Boomerangme API`

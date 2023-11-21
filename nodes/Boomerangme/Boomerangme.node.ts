@@ -2,6 +2,7 @@ import { INodeType, INodeTypeDescription } from 'n8n-workflow';
 import { customerFields, customerOperations } from './CustomerDescription';
 import { cardFields, cardOperations } from './CardDescription';
 import { companyFields, companyOperations } from './CompanyDescription';
+import { smsFields, smsOperations } from "./SmsDescription";
 
 export class Boomerangme implements INodeType {
 	description: INodeTypeDescription = {
@@ -50,6 +51,10 @@ export class Boomerangme implements INodeType {
 						name: 'Company',
 						value: 'company',
 					},
+					{
+						name: 'SMS',
+						value: 'sms',
+					},
 				],
 				default: 'customer',
 			},
@@ -60,6 +65,8 @@ export class Boomerangme implements INodeType {
 			...cardFields,
 			...companyOperations,
 			...companyFields,
+			...smsOperations,
+			...smsFields,
 		],
 	};
 }
