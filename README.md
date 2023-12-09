@@ -1,8 +1,8 @@
-# n8n-nodes-boomerangme
+# n8n-nodes-loyalty
 
-This is an n8n community node. It lets you use Boomerangme in your n8n workflows.
+This is an n8n community node. It lets you use Loyalty in your n8n workflows.
 
-Boomerangme is _one or two sentences describing the service this node integrates with_.
+Loyalty is _one or two sentences describing the service this node integrates with_.
 
 [n8n](https://n8n.io/) is a [fair-code licensed](https://docs.n8n.io/reference/license/) workflow automation platform.
 
@@ -53,9 +53,9 @@ Follow the [installation guide](https://docs.n8n.io/integrations/community-nodes
 
 ## Credentials
 
-Add credentials `Boomerangme API`
+Add credentials `Loyalty API`
 
-Get API key from page: https://app.boomerangme.cards/settings/integrations
+Get API key from page: settings/integrations
 
 ## Compatibility
 
